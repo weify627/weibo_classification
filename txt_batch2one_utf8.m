@@ -4,6 +4,11 @@ classlist  = dir('D:\本学期课程\机器学习概论\new_weibo_13638');
 % date -- modification date
 % bytes -- number of bytes allocated to the file
 % isdir -- 1 if name is a directory and 0 if not
+
+%It is used to read a collection of ".txt" files from subdirectories of a root directory and write them into one ".txt" file.
+%Contents include Chinese characters.
+
+
 result_id=fopen('result.txt','wt');
 l = length(classlist); 
 maxlen=0;
